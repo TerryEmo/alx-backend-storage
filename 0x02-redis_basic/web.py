@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 '''A module with tools for request caching and tracking.
 '''
@@ -37,4 +36,3 @@ def get_page(url: str) -> str:
     and tracking the request.
     '''
     return requests.get(url).text
-
